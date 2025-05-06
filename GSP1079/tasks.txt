@@ -5,3 +5,8 @@ gcloud config set compute/region $REGION
 gcloud services enable \
 container.googleapis.com \
 clouddeploy.googleapis.com
+
+
+gcloud container clusters create test --node-locations=us-west1-a --num-nodes=1  --async
+gcloud container clusters create staging --node-locations=us-west1-a --num-nodes=1  --async
+gcloud container clusters create prod --node-locations=us-west1-a --num-nodes=1  --async
