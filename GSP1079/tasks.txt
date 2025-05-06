@@ -19,3 +19,9 @@ gcloud artifacts repositories create web-app \
 --description="Image registry for tutorial web app" \
 --repository-format=docker \
 --location=$REGION
+
+cd ~/
+git clone https://github.com/GoogleCloudPlatform/cloud-deploy-tutorials.git
+cd cloud-deploy-tutorials
+git checkout c3cae80 --quiet
+cd tutorials/base
