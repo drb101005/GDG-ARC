@@ -25,3 +25,7 @@ git clone https://github.com/GoogleCloudPlatform/cloud-deploy-tutorials.git
 cd cloud-deploy-tutorials
 git checkout c3cae80 --quiet
 cd tutorials/base
+
+gcloud beta deploy rollouts list \
+--delivery-pipeline web-app \
+--release web-app-001
