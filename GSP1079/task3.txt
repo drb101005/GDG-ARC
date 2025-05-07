@@ -28,4 +28,4 @@ cd tutorials/base
 
 gcloud beta deploy rollouts list \
 --delivery-pipeline web-app \
---release web-app-001
+--release web-app-003
