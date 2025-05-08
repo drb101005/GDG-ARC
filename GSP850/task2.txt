@@ -53,5 +53,5 @@ WHERE
 GROUP BY
  teamId, team, teamArea
 
-ORDER BY
+ORDER BY-
  avgPassDistance

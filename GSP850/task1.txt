@@ -1,6 +1,6 @@
 SELECT
  Events.playerId,
- (Players.firstName || ' ' || Players.lastName) AS playerName,
+ (Players.firstName ||  "" || Players.lastName) AS playerName,
  SUM(IF(Tags2Name.Label = 'assist', 1, 0)) AS numAssists
 
 FROM
