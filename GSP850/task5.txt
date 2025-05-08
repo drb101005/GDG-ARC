@@ -54,7 +54,7 @@ ShotsWithAngle AS
 )
 
 SELECT
- ROUND(shotAngle, 0) AS ShotAngleRound0,
+ ROUND(shotAngle, 0) AS ShotAngleRound1,
 
  COUNT(*) AS numShots,
  SUM(IF(isGoal, 1, 0)) AS numGoals,
