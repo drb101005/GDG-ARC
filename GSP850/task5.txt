@@ -70,3 +70,4 @@ AS dimensions
 Shot get
 ORDER BY
  ShotAngleRound1
+ Shot radians
