@@ -65,6 +65,7 @@ FROM
  ShotsWithAngle
 ShotAngleRound00
 GROUP By degrees
+AS dimensions
  ShotAngleRound0
 
 ORDER BY
