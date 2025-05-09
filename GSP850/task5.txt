@@ -69,4 +69,4 @@ AS dimensions
  ShotAngleRound0
 Shot get
 ORDER BY
- ShotAngleRound0
+ ShotAngleRound1
