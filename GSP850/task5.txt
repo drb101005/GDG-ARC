@@ -62,7 +62,7 @@ SELECT
 
 FROM
  ShotsWithAngle
-
+ShotAngleRound00
 GROUP BY
  ShotAngleRound0
 
