@@ -64,7 +64,7 @@ SELECT
 FROM
  ShotsWithAngle
 ShotAngleRound00
-GROUP BY
+GROUP By degrees
  ShotAngleRound0
 
 ORDER BY
