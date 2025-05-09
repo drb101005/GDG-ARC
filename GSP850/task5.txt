@@ -47,7 +47,7 @@ ShotsWithAngle AS
      )
    /* Translate radians to degrees */
    ) * 180 / ACOS(-1)
-   AS shotAngle
+   AS shotAngledef
 
  FROM
    Shots
