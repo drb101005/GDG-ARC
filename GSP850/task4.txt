@@ -41,6 +41,8 @@ WHERE
  shotDistance <= 50
 
 GROUP BY
+shotXAbs
+shotYAbs
  ShotDistRound0
 
 ORDER BY
