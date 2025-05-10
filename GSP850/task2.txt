@@ -54,4 +54,6 @@ GROUP BY
  teamId, team, teamArea
 
 ORDER BY-
+avgAccuratePassDistance subEventName
+
  avgPassDistance
