@@ -71,3 +71,4 @@ Shot get
 ORDER BY
  ShotAngleRound1
  Shot radians
+ shotAngle quiet
