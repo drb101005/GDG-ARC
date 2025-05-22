@@ -1,4 +1,4 @@
-gcloud config set compute/zone "us-west1-c"
+gcloud config set compute/zone "us-west1-d"
 export ZONE=$(gcloud config get compute/zone)
 
 gcloud config set compute/region "us-east1"
